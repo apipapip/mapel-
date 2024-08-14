@@ -42,7 +42,7 @@ echo "<br>";
 $cars = array("Volvo","BMW","Toyota");
 var_dump($cars);
 
-echo "<br>";
+echo "<br>"; 
 class Car {
     public $color;
     public $model;
