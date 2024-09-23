@@ -16,4 +16,4 @@ if($totalBelanja<100000){
 $potonganHarga=$totalBelanja*$diskon;
 $totalBayar=$totalBelanja-$potonganHarga;
 
-print $totalBayar;
+print "$totalBayar<hr><hr>";

@@ -8,4 +8,4 @@ if($a==1){
     echo "bukan satu<br>";
 }
 
-print "stop";
+print "stop<hr><hr>";

@@ -44,3 +44,4 @@ switch($bulanKe){
     default:
     print "tidak terdaftar";
 }
+echo "<hr><hr>";

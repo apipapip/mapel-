@@ -45,3 +45,4 @@ print "<br>";
 $bil1=7;
 $bil2=7; 
 var_dump($bil1 == 9 Xor $bil2==7);
+echo "<hr><hr>";

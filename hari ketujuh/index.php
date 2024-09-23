@@ -17,3 +17,4 @@ do {
     echo "ini perulangan ke-$x<br>";
     $x++;
 } while($x < 1);
+echo "<hr><hr>";

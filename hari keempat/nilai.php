@@ -18,4 +18,4 @@ elseif($nilai>=60){
 }
 
 $hasil="$nilai:$predikat";
-print $hasil;
+print "$hasil<hr><hr>";

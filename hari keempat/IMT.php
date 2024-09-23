@@ -15,4 +15,4 @@ elseif($IMT< 30){
 }
 
 $kategori="$IMT:$keterangan";
-print $kategori;
+print "$kategori<br><br>";
