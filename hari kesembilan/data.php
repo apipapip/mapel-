@@ -6,7 +6,8 @@ $datasiswa=array(
     array("nama"=> "Dedi","NISN"=> "89345345")
 );
 
+//var_dump($datasiswa);
 foreach($datasiswa as $siswa){
-    echo $siswa['nama']."-"
-    . $siswa['NISN']."<br>";
+    echo $siswa['nama']."-".
+    $siswa['NISN']."<br>";
 }
