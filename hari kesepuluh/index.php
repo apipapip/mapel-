@@ -7,14 +7,14 @@ $persegipanjang=array(
     array("nama" => "persegi4", "panjang" => 73, "lebar" => 29 )
 );
 
-// foreach($persegipanjang as $index => $persegi){
-//     $persegipanjang[$index]["luas"]=$persegipanjang[$index]["panjang"]*$persegipanjang[$index]["lebar"];
-// }
-
-foreach($persegipanjang as $key => $persegi){
-    $luas = $persegi["panjang"]*$persegi["lebar"];
-    $persegipanjang[$key]["luas"] = $luas;
+foreach($persegipanjang as $index => $persegi){
+    $persegipanjang[$index]["luas"]=$persegipanjang[$index]["panjang"]*$persegipanjang[$index]["lebar"];
 }
+
+// foreach($persegipanjang as $key => $persegi){
+//     $luas = $persegi["panjang"]*$persegi["lebar"];
+//     $persegipanjang[$key]["luas"] = $luas;
+// }
  
 foreach($persegipanjang as $persegi){
     echo 
